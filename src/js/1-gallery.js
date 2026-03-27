@@ -75,5 +75,5 @@ const gallery = document.querySelector('.gallery');
 gallery.insertAdjacentHTML("beforeend", markup);
 
 console.log(SimpleLightbox)
- new SimpleLightbox('.gallery a', {captionsData: "alt", captionDelay: 250 });
+ new SimpleLightbox.default('.gallery a', {captionsData: "alt", captionDelay: 250 });
 
