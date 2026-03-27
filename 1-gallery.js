@@ -8,5 +8,5 @@ import{n as e}from"./assets/rolldown-runtime-DNdEV4Dn.js";/* empty css          
         />
       </a>
     </li>
-  `).join(``);i.insertAdjacentHTML(`beforeend`,a),console.log(n.default),new n.default(`.gallery a`,{captionsData:`alt`,captionDelay:250});
+  `).join(``);i.insertAdjacentHTML(`beforeend`,a),console.log(n.default),new n.default.default(`.gallery a`,{captionsData:`alt`,captionDelay:250});
 //# sourceMappingURL=1-gallery.js.map

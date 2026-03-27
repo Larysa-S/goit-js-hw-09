@@ -1,0 +1,2 @@
+/* empty css                      */import"./assets/modulepreload-polyfill-wMinxHhO.js";var e={email:``,message:``},t=document.querySelector(`.feedback-form`);t.addEventListener(`input`,t=>{e[t.target.name]=t.target.value.trim(),localStorage.setItem(`feedback-form-state`,JSON.stringify(e))}),t.addEventListener(`submit`,n=>{if(n.preventDefault(),e.email===``||e.message===``)return alert(`Fill please all fields`);console.log(e),localStorage.removeItem(`feedback-form-state`),e.email=``,e.message=``,t.reset()});
+//# sourceMappingURL=2-form.js.map
