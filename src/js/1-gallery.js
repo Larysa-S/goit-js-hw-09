@@ -74,6 +74,7 @@ const gallery = document.querySelector('.gallery');
 const markup = galleryItems
   .map(
     ({ preview, original, description }) => `
+    
     <li class="gallery-item">
       <a class="gallery-link" href="${original}">
         <img
@@ -83,6 +84,7 @@ const markup = galleryItems
         />
       </a>
     </li>
+    
   `
   )
   .join('');
