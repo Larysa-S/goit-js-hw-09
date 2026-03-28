@@ -30,7 +30,7 @@ form.addEventListener('submit', e => {
   const emailValue = formData.email.trim();
   const messageValue = formData.message.trim();
 
-  if (formData.email === '' || formData.message === '') {
+  if (emailValue === '' || messageValue === '') {
     return alert('Fill please all fields');
   }
 

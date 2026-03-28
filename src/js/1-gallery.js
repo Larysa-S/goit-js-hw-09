@@ -91,8 +91,7 @@ const markup = galleryItems
 
 gallery.insertAdjacentHTML('beforeend', markup);
 
-console.log(SimpleLightbox);
-new SimpleLightbox.default('.gallery a', {
+new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
